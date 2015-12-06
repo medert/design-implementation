@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Launch Academy</title>
+
+    <link rel="stylesheet" href="/stylesheets/foundation.min.css">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+  </head>
+  <body>
+    <div class="top-bar">
+      <div class='top-bar-left' small-12 medium-5 colums>
+        <ul class="company_name">
+          <li><a href="#">Launch Academy</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right" data-options="sticky_on:[small, medium, large]">
+        <ul class="menu">
+          <li><a href="#">Learn on Campus</a></li>
+          <li><a href="#">Learn Online</a></li>
+          <li><button type="button" class="button">Apply</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <center>
+        <%= yield %>
+      </center>
+    </div>
+
+
+    <div class="feedback">
+      <h1 class="medium-12 columns">Contact Us</h1>
+        <hr>
+        <p class="feedback_m">If you have questions or just want to say "Hi", drop us a message!</p>
+        <p class="feedback_m">We'd love to hear form you!</p>
+      <div class="feedback_form">
+        <div class="columns medium-6">
+          <input class="string required" placeholder="First Name" type="text" name="feedback[first_name]" id="feedback_first_name">
+        </div>
+        <div class="columns medium-6">
+          <input class="string required" placeholder="Last Name" type="text" name="feedback[last_name]" id="feedback_last_name">
+        </div>
+        <div class="columns medium-6">
+          <input class="string required" placeholder="Email" type="text" name="feedback[email]" id="feedback_email">
+        </div>
+        <div class="columns medium-6">
+          <input class="string required" placeholder="Phone" type="text" name="feedback[phone]" id="feedback_phone">
+        </div>
+        <div class="columns medium-12">
+          <input class="string required" placeholder="What's on your mind?" type="text" name="feedback[message]" id="feedback_message">
+        </div>
+
+        <div class="columns text-left">
+          <div class="button success" id="submit"> Submit</div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="/js/vendor/jquery.js"></script>
+    <script src="/js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>

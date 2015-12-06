@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+
+.body {font-family: 'Roboto Slab, serif;
+}
+
+.top-bar {
+  background-color: #37becc
+}
+
+.top-bar ul {
+  background-color: #37becc;
+  float: left;
+}
+
+.top-bar-left li {
+  font-weight: bold;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+.top-bar a {
+  color: #f8f8f9;
+}
+
+.menu button {
+  background-color: #ed1a7b;
+  padding: 7px;
+}
+
+h1{
+  font-size: 30px;
+}
+
+.feedback {
+  background-color: #e5f3f4;
+  text-align: center;
+}
+
+
+.feedback h1 {
+  color: #37becc;
+  padding: 20px;
+}
+
+.feedback div {
+  background-color: #e5f3f4;
+
+}
+
+.feedback_form {
+  background-color: #e5f3f4;
+  padding-top: 10px;
+}
+
+hr {
+  width: 65%
+}
+
+p {
+  font-size: 12px;
+}
+
+.campus {
+  background-image: url("/images/background-1.jpg");
+  width: auto;
+  height: 380px;
+  padding-top: 70px;
+  padding-buttom: 50px;
+  color: #f8f8f9;
+}
+
+.campus p {
+  color: #f8f8f9;
+}
+
+.campus div {
+  background-color: #84ce15;
+}
+
+.online {
+  background-color: #f8f8f9;
+  width: auto;
+}
+
+.online h1 {
+  padding-top: 20px;
+  color: #37becc;
+}
+
+.online div {
+  background-color: #ed1a7b;
+}
+
+.hiring {
+  background-image: url("/images/background-2.jpg");
+  width: auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.hiring h1{
+  color: #f8f8f9;
+}
+
+.hiring p {
+  color: #f8f8f9;
+}
+
+.hiring div{
+  background-color: #84ce15;
+}
+
+.partners {
+  background-color: #1c2224;
+  height: 400px;
+  padding-top: 30px;
+  padding-buttom: 40px;
+}
+
+.partners h1 {
+  color: #37becc;
+}
+
+.partners p {
+  color: #f8f8f9;
+}
+
+.box {
+  background-color: #272c2E;
+  
+}
+
+.company {
+  padding: 10px;
+}
